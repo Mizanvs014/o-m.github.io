@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>O&M | Acerca De</title>
+		<title>O&M | Contacto</title>
 		<link href="css/all-stylesheets.css" rel="stylesheet">
 		<link rel=»icon» type=»image/x-icon» href=»favicon.ico»>
 	</head>
@@ -26,8 +26,8 @@
 							<li><a href="#" class="external">SOLUCIONES INFORMÁTICAS</a></li>
 							<li><a href="#" class="external">INSUMOS PARA OFICINA</a></li>
 							<li><a href="#" class="external">BORDADOS Y SERIGRAFIA</a></li>
-							<li class="current"><a href="about-us.html" class="external">ACERCA DE</a></li> 
-							<li><a href="contact.html" class="external">CONTACTO</a></li>
+							<li><a href="about-us.html" class="external">ACERCA DE</a></li> 
+							<li class="current"><a href="contact.html" class="external">CONTACTO</a></li>
 						</ul>
 					</div>
 				</div>
@@ -35,243 +35,121 @@
 		</nav>
 		<!-- /. NAVIGATION ENDS
 			========================================================================= -->
-		<!-- ABOUT US PAGE CONTENTS STARTS
+		<!-- CONTACT PAGE CONTENTS STARTS
 			========================================================================= -->
-		<div class="about-us">
-			<!-- ABOUT US BANNER STARTS -->
+		<div class="contact">
+			<!-- CONTACT BANNER STARTS -->
 			<div class="inner-banner parallax-1">
 				<div class="header">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12">
-								<h1><span>Acerca De</span></h1>
+								<h1><span>Información de Contacto</span></h1>
 								<ol class="breadcrumb">
 									<li><a href="index.html">Inicio</a></li>
-									<li class="active">Acerca De</li>
+									<li class="active">Információn de Contacto</li>
 								</ol>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- ABOUT US BANNER ENDS -->		
-			<!-- ABOUT US INTRO STARTS -->
-			<div class="container contents intro">
+			<!-- CONTACT BANNER ENDS -->		
+			<!-- CONTACT CONTENTS STARTS -->
+			<div class="container contents">
 				<div class="row">
-					<div class="col-lg-12">
-						<h1>¡Somos tu mejor <span class="yellow-text">opción</span><br>para suplir tus necesidades de oficina!</h1>
-						<div class="doubleline"></div>
-						<div class="detail">Multiservicios O&M, fue fundada en ciudad de Tegucigalpa, Municipio del Distrito Central, el 22 de junio del año 2020.<br class="hidden-xs">
-							Nuestra empresa es una sociedad de serviciosmúltiples con un portafolio diversificado para sectores dinámicos<br class="hidden-xs">
-							de la economía hondureña, garantizando la calidad, rapidez y efectividadde nuestros productos y servicios.<br class="hidden-xs">
+					<!-- Left Column Starts -->
+					<div class="col-lg-8 col-md-8 col-sm-8">
+						<h1>¿Dónde estamos ubicados?</h1>
+						<div class="line"></div>
+						<div class="description">Favor visítanos o comunícate con nosotros por medio de nuestros diferentes medios, <br>¡Estaremos atentos para ayudarte con lo que necesites!
+						</div>
+						<!-- Google Map Starts -->
+						<div class="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3870.6302470910673!2d-87.22320327051277!3d14.039918349319786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2shn!4v1707691604878!5m2!1ses-419!2shn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<!-- Google Map Ends -->
+					</div>
+					<!-- Left Column Starts -->
+					<!-- Right Column Starts -->
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<h1>Contact Infos</h1>
+						<div class="line"></div>
+						<ul class="contact-info">
+							<li><i class="fa fa-map-marker"></i> Tegucigalpa M.D.C. (HN) Col Lomas de Toncontin, calle principal, dos cuadras abajo de Pulpería Betania.</li>
+							<li><i class="fa fa-envelope"></i> <a href="">info@multi-servicioshn.com</a></li>
+							<li><i class="fa fa-phone"></i> +(504) 2291-0152 | +(504) 9284-7118</li>
+							<li><i class="fa fa-clock-o"></i> Lunes - Viernes  | 08.00 a.m. - 05.00 p.m.</li>
+							<li><i class="fa fa-clock-o"></i> Sábado  | 08.00 a.m. - 12.00 m.</li>
+						</ul>
+						<!-- Form Starts -->
+						<div class="form">
+							<form action='process.php' method='post' name='ContactForm' id='ContactForm' >
+								<div class="form-group">    
+									<input type="text" class="form-control" name="name" placeholder="Nombre y Apellido: *">
+								</div>
+								<div class="form-group">    
+									<input type="text" class="form-control" name="email" placeholder="Correo Electrónico: *">
+								</div>
+								<div class="form-group">    
+									<input type="text" class="form-control" name="website" placeholder="Asunto: ">
+								</div>
+								<div class="form-group">
+									<textarea rows="5" class="form-control" name="comment" placeholder="Mensaje: *" style="height:175px;"></textarea>
+								</div>
+								<div id='message_post'></div>
+								<input class="btn btn-default" type='submit' value='Enviar Mensaje' name='submitf' id="submitf">
+							</form>
+						</div>
+						<!-- Form Ends -->
+					</div>
+				</div>
+				<!-- Right Column Ends -->
+				<!-- Social Icons Starts -->
+				<div class="row no-gutter-2 s-icons">
+					<div class="col-lg-4 col-md-4 col-sm-2 col-xs-6">
+						<div class="icon fb">
+							<a href=""><i class="fa fa-facebook"></i></a>
+							<div class="caption">¡Regálanos un 'Me Gusta'!</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-2 col-xs-6">
+						<div class="icon twitter">
+							<a href=""><i class="fa fa-twitter"></i></a>
+							<div class="caption">¡Síguenos!</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-2 col-xs-6">
+						<div class="icon pinterest">
+							<a href=""><i class="fa fa-instagram"></i></a>
+							<div class="caption">¡Visítanos!</div>
 						</div>
 					</div>
 				</div>
-				<div class="row intro-columns">
-					<!-- Block Starts -->
-					<div class="col-lg-4 col-md-4">
-						<div class="block">
-							<div class="picture"><img src="images/about-us/1.jpg" class="img-responsive" alt=""></div>
-							<div class="title">Soluciones Informáticas</div>
-							<div class="description">Equipos e Instalación, Implementación de ERP, Sistemas Nominas etc., Implementación y mantenimiento de Data Center’s., Implementación de herramientas de administración y seguridad Perimetral. Instalación de equipo de seguridad y vigilancia, Instalación de Biométricos y equipos de administración, Creación de Páginas web, Soporte Técnico Remoto y Presencial, Mantenimiento y reparación de equipo. (Computadoras, Plotters, Impresoras etc.)</div>
-						</div>
-					</div>
-					<!-- Block Starts -->
-					<!-- Block Starts -->
-					<div class="col-lg-4 col-md-4">
-						<div class="block">
-							<div class="picture"><img src="images/about-us/2.jpg" class="img-responsive" alt=""></div>
-							<div class="title">Bordados y Serigrafía</div>
-							<div class="description"><b>Confección:</b> Camisa Tipo Polo manga corta y manga larga, Camisa Polo, Pantalones, Busos, Sudaderas.
-								<br><br><b>Uniformes:</b> Ropa deportiva, Ropa Medica, Chalecos, Camisa formal / estilo Columbia, Overoles / Gabachas
-								<br><br><b>Otros:</b> Banderas, Mascarillas, Gorras, Bolsos. <br><br><br>
-								</div>
-						</div>
-					</div>
-					<!-- Block Starts -->
-					<!-- Block Starts -->
-					<div class="col-lg-4 col-md-4">
-						<div class="block">
-							<div class="picture"><img src="images/about-us/3.jpg" class="img-responsive" alt=""></div>
-							<div class="title">Insumos para Oficina</div>
-							<div class="description">Contamos con una gran variedad de insumos para oficina, papelería y demás:
-								<br><br> Papelería
-								<br><br> Suministros de Oficina
-								<br><br> Tintas y Tóners <br><br><br><br>
-								</div>
-						</div>
-					</div>
-					<!-- Block Starts -->
-				</div>
+				<!-- Social Icons Ends -->
 			</div>
-			<!-- ABOUT US INTRO ENDS -->
-			<!-- FUNFACTS STARTS -->
-			<div class="funfacts parallax-1">
-				<div class="container">
-					<div class="row">
-						<!-- Block Starts -->
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<div class="block">
-								<div class="icon"><i class="fa fa-calendar"></i></div>
-								<div class="count">365</div>
-								<div class="caption">Días de atención al año</div>
-							</div>
-						</div>
-						<!-- Block Ends -->
-						<!-- Block Starts -->
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<div class="block">
-								<div class="icon"><i class="fa fa-list"></i></div>
-								<div class="count">10+</div>
-								<div class="caption">Marcas</div>
-							</div>
-						</div>
-						<!-- Block Ends -->
-						<!-- Block Starts -->
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<div class="block">
-								<div class="icon"><i class="fa fa-users "></i></div>
-								<div class="count">15+</div>
-								<div class="caption">Clientes Satisfechos</div>
-							</div>
-						</div>
-						<!-- Block Ends -->
-						<!-- Block Starts -->
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-							<div class="block">
-								<div class="icon"><i class="fa fa-shopping-cart "></i></div>
-								<div class="count">1k+</div>
-								<div class="caption">Pedidos Atendidos</div>
-							</div>
-						</div>
-						<!-- Block Ends -->
-					</div>
-				</div>
-			</div>
-			<!-- FUNFACTS ENDS --> 
-
-			
-			
-					
-			<!-- TEAM STARTS  -->
-			<div class="team very-light-grey">
-				<div class="dark-grey header">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								<h1><span>Misión Visión y Política de Calidad</span></h1>								
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="container">
-					
-					<!-- ----------------------------- -->
-					<div class="container-fluid index-3-cols">
-						<div class="row">
-							<!-- Column Starts -->
-							<div class="col-lg-6 col-md-6 block light-grey">
-								<div class="clearfix">
-									<h1 class="pull-left">Misión</h1>
-									<div class="pull-right icon"><i class="fa fa-check-square"></i></div>
-								</div>
-								<div class="line"></div>
-								<div class="description">Brindar servicios y productos de calidad en los diferentes rubros en que nos destacamos; Ser el mejor proveedor de servicio del País, trabajamos para crecer nuestro negocio con la misma honestidad e integridad que usamos para realizar nuestro trabajo.
-								</div>
-								<!-- <div class="button"><a href="">Read More</a></div> -->
-							</div>
-							<!-- Column Ends -->
-							<!-- Column Starts -->
-							<div class="col-lg-6 col-md-6 block medium-grey">
-								<div class="clearfix">
-									<h1 class="pull-left">Visión</h1>
-									<div class="pull-right icon"><i class="fa fa-line-chart"></i></div>
-								</div>
-								<div class="line"></div>
-								<div class="description">Ser un proveedor confiable para nuestros clientes y obtener un crecimiento exponencial en el suministro de nuestros productos. <br><br>
-								</div>
-								<!-- <div class="button"><a href="" class="white">Read More</a></div> -->
-							</div>
-							<!-- Column Ends -->
-						</div>
-					</div>
-					<!-- ----------------------------- -->
-
-					<div class="row">
-						<div class="description"><br> Con una cultura de calidad y servicio, Multiservicios O&M es una de las Empresas que se enfocan en la atención al cliente en la región.
-							Agregando valor al mercado con las distintas marcas que comercializamos, con tecnologías de punta, servicios y productos de calidad, para ofrecer soluciones confiables.
-							<br><h2><b>Nuestra Política de Calidad se orienta a:</b></h2>
-						</div>
-					</div>
-					<div class="team-carousel">
-						<!-- Block Starts -->
-							<div class="block">
-								<div class="picture">
-									<img src="images/team/1.jpg" class="img-responsive" alt="">
-								</div>
-								<div class="details">
-									<div>Estandarizar y formalizar nuestros procesos para eficientizar nuestra operación.<br><br></div>
-								</div>
-							</div>
-						<!-- Block Ends -->
-
-						<!-- Block Starts -->
-						<div class="block">
-							<div class="picture">
-								<img src="images/team/2.jpg" class="img-responsive" alt="">
-							</div>
-							<div class="details">
-								<div>Actualización permanente de tecnología.<br><br><br></div>
-							</div>
-						</div>
-						<!-- Block Ends -->
-
-						<!-- Block Starts -->
-						<div class="block">
-							<div class="picture">
-								<img src="images/team/3.jpg" class="img-responsive" alt="">
-							</div>
-							<div class="details">
-								<div>Aseguramiento del cumplimiento de los requisitos de nuestros clientes.<br><br><br></div>
-							</div>
-						</div>
-						<!-- Block Ends -->
-
-						<!-- Block Starts -->
-						<div class="block">
-							<div class="picture">
-								<img src="images/team/4.jpg" class="img-responsive" alt="">
-							</div>
-							<div class="details">
-								<div>Fomentar el profesionalismo, actitud de servicio, motivación y desarrollo de competencias en nuestros colaboradores.</div>
-							</div>
-						</div>
-						<!-- Block Ends -->
-					</div>
-				</div>
-			</div>
-			<!-- TEAM ENDS  -->
+			<!-- CONTACT CONTENTS ENDS -->			
 		</div>
-		<!-- /. ABOUT US PAGE CONTENTS ENDS
+		<!-- /. CONTACT PAGE CONTENTS ENDS
 			========================================================================= -->
 		<!-- SOCIAL ICONS STARTS
 			========================================================================= -->
-		<div class="dark-grey-2 social-icons">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-3 logo"><img src="images/logos/logo-footer.png" alt="" ></div>
-					<div class="col-lg-9 col-md-9 col-sm-9">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-times"></i></a></li>
-						</ul>
+			<div class="dark-grey-2 social-icons">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 logo"><img src="images/logos/logo-footer.png" alt="" ></div>
+						<div class="col-lg-9 col-md-9 col-sm-9">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-times"></i></a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- /. SOCIAL ICONS ENDS
-			========================================================================= -->
+			<!-- /. SOCIAL ICONS ENDS
+				========================================================================= -->
 		<!-- FOOTER STARTS
 			========================================================================= -->
 			<footer class="dark-grey-3">
@@ -449,6 +327,8 @@
 				}
 			});	/*ready*/
 		</script>
+		<!-- AJAX Contact Form --> 			
+		<script type="text/javascript" src="js/contact/contact-form.js"></script>
 		<!-- Isotope Gallery --> 
 		<script type="text/javascript" src="js/isotope/jquery.isotope.min.js"></script> 
 		<script type="text/javascript" src="js/isotope/custom-isotope-mansory.js"></script>
